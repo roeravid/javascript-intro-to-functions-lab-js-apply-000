@@ -100,8 +100,6 @@ function() {
 
 var ichy = 'I can\'t hear you!';
 var yi = 'YES INDEED!';
-var h = 'hello';
-var H = 'HELLO';
 var ilyg = 'I love you, Grandma.';
 var ilyt = 'I love you, too.';
 
@@ -112,11 +110,11 @@ function isUpperCase(string) {
 
 function sayHiToGrandma(string)
 {
-  if (string.toLowerCase === h)
+  if (string === string.toLowerCase)
   {
     return ichy
   }
-  else if (string.toUpperCase === H)
+  else if (string === string.toUpperCase)
   {
     return yi
   }
