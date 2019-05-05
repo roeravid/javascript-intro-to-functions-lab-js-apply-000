@@ -48,7 +48,7 @@ function logShout(string){
   return string.toUpperCase()
 }
 
-  console.logShout('hello')
+  console.log('hello')
   
   
 //-----------------------------------------------------
