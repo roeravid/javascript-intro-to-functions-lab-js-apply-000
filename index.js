@@ -98,6 +98,11 @@ function() {
 })
 */
 
+var chy = 'I can\'t hear you!';
+var yi = 'YES INDEED!';
+var hello = 'hello';
+var HELLO = 'HELLO';
+
 
 function sayHiToGrandma(string)
 {
@@ -114,4 +119,6 @@ function sayHiToGrandma(string)
     return 'I love you, too.'
   }
 }
+
+sayHiToGrandma(string);
 
