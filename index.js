@@ -45,13 +45,12 @@ describe('logShout(string)', function() {
   })
 })
 */
-var logShout;
 
 function logShout(string){
   return string.toUpperCase()
 }
 
-'hello'.toUpperCase();
+logShout(console.log)
 
 
   
