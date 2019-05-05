@@ -85,9 +85,13 @@ describe('sayHiToGrandma(string)', function() {
   })
 })
 */
-function sayHiToGrandma(string){
+var string;
+function sayHiToGrandma(string)
+{
   if (string.toLowerCase != true)
   {
+    
+  }
   
 }
 
