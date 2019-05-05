@@ -76,7 +76,7 @@ function logWhisper(string){
   return string.toLowerCase()
 }
 
-'HELLO!'.toLowerCase()
+console.log(string)
 //-----------------------------------------------------
 
 /*
