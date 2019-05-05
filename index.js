@@ -98,10 +98,12 @@ function() {
 })
 */
 
-var chy = 'I can\'t hear you!';
+var ichy = 'I can\'t hear you!';
 var yi = 'YES INDEED!';
 var hello = 'hello';
 var HELLO = 'HELLO';
+var ilyg = 'I love you, Grandma.';
+var ilyt = 'I love you, too.';
 
 
 function sayHiToGrandma(string)
@@ -116,7 +118,7 @@ function sayHiToGrandma(string)
   }
   else if (string === 'I love you, Grandma')
   {
-    return 'I love you, too.'
+    return ilyt
   }
 }
 
