@@ -103,14 +103,23 @@ var yi = 'YES INDEED!';
 var ilyg = 'I love you, Grandma.';
 var ilyt = 'I love you, too.';
 
+function isUpperCase(string)
+{
+    return string === string.toUpperCase();
+}
+
+function isLowerCase(string)
+{
+  return string === string.toLowerCase();
+}
 
 function sayHiToGrandma(string)
 {
-  if (string === string.toLowerCase)
+  if (isLowerCase(string))
   {
     return ichy
   }
-  else if (string === string.toUpperCase)
+  else if (isUpperCase(string))
   {
     return yi
   }
