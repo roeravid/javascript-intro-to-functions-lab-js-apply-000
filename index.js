@@ -105,8 +105,8 @@ var H = 'HELLO';
 var ilyg = 'I love you, Grandma.';
 var ilyt = 'I love you, too.';
 
-function isUpperCase(str) {
-    return str === str.toUpperCase();
+function isUpperCase(string) {
+    return string === string.toUpperCase();
 }
 
 
