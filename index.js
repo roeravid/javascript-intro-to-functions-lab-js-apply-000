@@ -114,9 +114,9 @@ function sayHiToGrandma(string)
   }
   else if (string.toUpperCase === 'HELLO')
   {
-    return 'YES INDEED!'
+    return yi'
   }
-  else if (string === 'I love you, Grandma')
+  else if (string === ilyg)
   {
     return ilyt
   }
