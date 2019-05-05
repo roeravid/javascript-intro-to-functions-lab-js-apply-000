@@ -115,11 +115,11 @@ function isLowerCase(string)
 
 function sayHiToGrandma(string)
 {
-  if (isLowerCase(string))
+  if (isLowerCase(string) === true)
   {
     return ichy
   }
-  else if (isUpperCase(string))
+  else if (isUpperCase(string) === true)
   {
     return yi
   }
