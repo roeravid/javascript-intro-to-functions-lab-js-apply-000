@@ -72,11 +72,11 @@ describe('logWhisper(string)', function() {
 })
 */
 
-function logWhisper(){
-
+function logWhisper(string){
+  return string.toLowerCase()
 }
 
-
+'HELLO!'.toLowerCase()
 //-----------------------------------------------------
 
 /*
