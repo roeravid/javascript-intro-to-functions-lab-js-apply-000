@@ -72,10 +72,10 @@ describe('logWhisper(string)', function() {
 */
 
 function logWhisper(string){
-  return string.toLowerCase()
+  console.log(string.toLowerCase())
 }
 
-console.log(string)
+logWhisper('HELLO')
 //-----------------------------------------------------
 
 /*
@@ -93,13 +93,17 @@ describe('sayHiToGrandma(string)', function() {
   })
 })
 */
-var string;
+
 function sayHiToGrandma(string)
 {
-  if (string.toLowerCase != true)
+  if (string.toLowerCase === true)
   {
-    
+    return 'I can\'t hear you!'
   }
-  
+  else if (string.toUpperCase === true)
+  {
+    return 'YES INDEED!'
+  }
+  else
 }
 
