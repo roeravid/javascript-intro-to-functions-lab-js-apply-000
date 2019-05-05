@@ -27,7 +27,10 @@ describe('whisper(string)', function() {
 
 function whisper(string) {
   return string.toLowerCase()
+  
 }
+
+'HELLO!'.toLowerCase();
 //-----------------------------------------------------
 /*
 describe('logShout(string)', function() {
