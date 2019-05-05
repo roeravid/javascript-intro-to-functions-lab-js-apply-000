@@ -104,6 +104,6 @@ function sayHiToGrandma(string)
   {
     return 'YES INDEED!'
   }
-  else
+  else if (string === '')
 }
 
