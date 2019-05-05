@@ -51,7 +51,7 @@ function logShout(string){
   return string.toUpperCase()
 }
 
-string.toUpperCase();
+'hello'.toUpperCase();
 
 
   
