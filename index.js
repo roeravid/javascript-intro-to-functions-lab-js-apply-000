@@ -47,10 +47,10 @@ describe('logShout(string)', function() {
 */
 
 function logShout(string){
-  return string.toUpperCase()
+  console.log(string.toUpperCase())
 }
 
-console.log(logShout('hello')
+logShout('hello')
 
 
   
