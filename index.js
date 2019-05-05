@@ -44,6 +44,10 @@ describe('logShout(string)', function() {
 */
 var logShout;
 
+function logWhisper(){
+
+}
+
 function logShout(string){
   return string.toUpperCase()
 }
