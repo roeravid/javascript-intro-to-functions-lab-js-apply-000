@@ -50,7 +50,7 @@ function logShout(string){
   return string.toUpperCase()
 }
 
-logShout(console.log)
+console.log(logShout('hello')
 
 
   
